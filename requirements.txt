@@ -1,0 +1,17 @@
+pip~=21.3.1
+configparser~=5.2.0
+wheel~=0.36.2
+cryptography~=36.0.1
+lxml~=4.7.1
+tornado~=6.1
+requests~=2.27.1
+tweepy~=4.5.0
+oauthlib~=3.2.0
+urllib3~=1.25.10
+certifi~=2020.6.20
+six~=1.15.0
+idna~=2.10
+chardet~=3.0.4
+setuptools~=49.2.1
+docutils~=0.18.1
+pytz~=2020.5
