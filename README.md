@@ -114,9 +114,18 @@ pip install -r requirements.txt
   ACCESS_TOKEN_SECRET = os.environ.get("ACCESS_TOKEN_SECRET")
 ```
 
-  <li>Finally you can try to call functions. You can test get_tweet_by_id() function with this id “1490336052627841025”. 
-      You’ll receive this data as a response: “Response(data=<Tweet id=1490336052627841025 text=@kudrinko97 Florence? One of my favourite cities that I have ever visited>, includes={}, errors=[], meta={})”
-      If so all your credentials and code works well.</li>
+  <li>Finally you can try to call functions. You can test get_tweet_by_id() function with this id “1490336052627841025”.
+
+```
+  get_tweet_by_id(tweet_id="1490336052627841025") 
+```
+  You’ll receive this data as a response: 
+ 
+```
+  Response(data=<Tweet id=1490336052627841025 text=@kudrinko97 Florence? One of my favourite cities that I have ever visited>, includes={}, errors=[], meta={})
+```
+      
+  If so all your credentials and code works well.</li>
  </ol>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
